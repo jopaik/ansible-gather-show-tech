@@ -45,6 +45,7 @@
 - hosts: "{{ swname }}"
   connection: network_cli
   gather_facts: no
+  vars:
+    ansible_command_timeout: "{{ cmd_timeout | default(999) }}"
   roles:
     - role: showtech
-

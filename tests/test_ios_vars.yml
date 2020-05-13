@@ -1,7 +1,7 @@
 ostype: ios
-tftpserver: 10.100.1.9
-swname: 10.100.1.14
+tftpserver: 192.168.65.131
+swname: 192.168.65.129
 user: ansible
-passwd: cisco
-show_tech_command: show clock
+passwd: Ansible123
+show_tech_command: show tech
 file_storage: tftp
